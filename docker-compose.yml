@@ -20,7 +20,7 @@ services:
       - static:/wger/static:ro
       - media:/wger/media:ro
     ports:
-      - 80:80
+      - 8001:80
     depends_on:
       - web
 
